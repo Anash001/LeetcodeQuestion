@@ -5,7 +5,7 @@ public:
        int even=0 ,odd=0;
         for(int i=0;i<n;i++)
         {
-            if(position[i]%2==0)
+            if(position[i]%2!=0)
             {
                 even++;
             }
