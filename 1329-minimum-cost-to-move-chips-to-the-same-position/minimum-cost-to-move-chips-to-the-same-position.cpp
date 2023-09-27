@@ -7,11 +7,11 @@ public:
         {
             if(position[i]%2!=0)
             {
-                even++;
+                odd++;
             }
             else
             {
-                odd++;
+                even++;
             }
         }
         return min(even ,odd);
